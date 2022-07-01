@@ -1,0 +1,26 @@
+.benefits{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1440px;
+    color: white;
+
+    div{
+        margin: 20px;
+        text-align: center;
+        span{
+            color: white;
+            font-size: 25px;
+            display: block;
+        }
+        p{
+            width: 230px;
+        }
+    }
+}
+
+img{
+    width: 180px;
+    height: 175px;
+}

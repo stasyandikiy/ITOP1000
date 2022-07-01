@@ -1,0 +1,19 @@
+<div class="conversion">
+    <div class="inlet">
+        <select [(ngModel)]="select1" (change)="changeCurrencyState('select1')">
+            <option value="UAH">UAH</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+        </select>
+        <input type="number" (change)="changeCurrencyState('input1')" class="amount" [(ngModel)] ="inputDeduction"/>
+    </div>
+ 
+    <div class="deduction"> 
+        <select [(ngModel)]="select2" (change)="changeCurrencyState('select2')">
+        <option  value="UAH">UAH</option>
+        <option  value="USD">USD</option>
+        <option  value="EUR">EUR</option>
+        </select>
+        <input type="number"  (change)="changeCurrencyState('input2')" class="amount" [(ngModel)]="inputIntlet"/>
+    </div>
+</div>
